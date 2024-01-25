@@ -1,0 +1,8 @@
+pandas
+tensorflow-gpu==2.13.0
+matplotlib
+keras==2.13.1
+nltk
+emoji
+pickle
+scikit-learn==1.3.2
