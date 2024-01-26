@@ -12,4 +12,5 @@ optimizer = Adam(lr_schedule)
 manager = create_checkpoint_manager(f'checkpoints/{MODEL_NAME}', model, optimizer)
 load_checkpoint_if_exists(manager)
 
-generate_review(model, 'I really liked this tea', temperature=0.7)
+generated_review = generate_review(model, 'I really liked this tea', temperature=0.7)
+print(generated_review)
