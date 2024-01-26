@@ -60,8 +60,8 @@ def validate(dataset_val, step, data_name, model, loss_fn, word2idx, idx2word):
     print(f"{data_name} sampling acc at step {step}: {avg_val_sampling_acc:.2f}")
 
     limit = detokenize_x(y_batch_val[0].numpy(), word2idx, idx2word)
-    detokenize_y(y_pred_argmax[0].numpy(), limit, 'Argmax: ',idx2word)
-    detokenize_y(y_pred_sampling[0].numpy(), limit, 'Sampling: '.idx2word) 
+    detokenize_y(y_pred_argmax[0].numpy(), limit, 'Argmax: ', idx2word)
+    detokenize_y(y_pred_sampling[0].numpy(), limit, 'Sampling: ', idx2word) 
     
     return avg_val_loss, avg_val_argmax_acc, avg_val_sampling_acc
 
