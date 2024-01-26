@@ -3,7 +3,7 @@ import tensorflow as tf
 import nltk
 import pickle
 from hparams import *
-from preprocessor import data_split
+from data.preprocessor import data_split
 
 # Read dictionary pkl file
 def open_vocabulary():
