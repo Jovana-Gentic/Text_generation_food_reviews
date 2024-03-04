@@ -1,6 +1,6 @@
 <div align="center"> <h1> Text generation: Food reviews </h1> </div>
 <div align="center"><a>Jovana&nbsp;Gentić 🦆</a></div>
-<div align="center"><a href="https://www.kaggle.com/code/jovanagenti/spectrogram-classification-with-conv1d-97-7">kaggle notebook</a></div>
+<div align="center"><a href="https://www.kaggle.com/code/jovanagenti/text-generation-with-lstm-cnn-and-transformers">kaggle notebook</a></div>
 
 <br>
 <br>
