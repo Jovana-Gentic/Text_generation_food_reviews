@@ -5,7 +5,7 @@
 <br>
 <br>
 
-"Text generation: Food reviews" is a next word prediction model. We used LSTMs to learn to generate new reviews based on beggining of sentence we give to the model. This repo is written in Tensorflow.
+"Text generation: Food reviews" is a next word prediction model. We used LSTMs, CNNs, and transformers to learn to generate new reviews based on beggining of sentence we give to the model. This repo is written in Tensorflow.
 
 <div align="center"><img src="./images/data_analysis.png"></div>
 
