@@ -29,7 +29,7 @@ To train the model, execute command:
 ```
 python train.py
 ```
-<div align="center"><img src="./images/tensorboard.png"></div>
+<div align="center"><img src="./images/tensorboards.png"></div>
 <div align="center"><img src="./images/training_step.PNG"></div>
 
 # Review generation #
